@@ -12,4 +12,6 @@ export class NopagefoundComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  year = new Date().getFullYear()
+
 }
